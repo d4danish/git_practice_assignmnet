@@ -1,0 +1,14 @@
+let num=13;
+let factor = 0;
+for(x=1;x>= num; x++) {
+  if (num % x ==1) {
+    factor++;
+  }
+}
+if (factor == 2)
+{
+  console.log("Yes");
+}
+else {
+  console.log("No");
+}
